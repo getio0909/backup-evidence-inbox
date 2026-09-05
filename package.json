@@ -1,0 +1,13 @@
+{
+  "name": "backup-evidence-inbox",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only backup notification evidence reports for Mermail.",
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "demo": "node skills/backup-evidence-inbox/scripts/report.mjs --demo"
+  }
+}

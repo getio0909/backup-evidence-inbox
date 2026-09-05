@@ -1,0 +1,4 @@
+interface:
+  display_name: "Backup Evidence Inbox"
+  short_description: "Review backup email claims and missing evidence"
+  default_prompt: "Use $backup-evidence-inbox to review backup notifications in the selected inbox."
