@@ -17,6 +17,8 @@ The skill is self-contained under `skills/backup-evidence-inbox`. Its scripts an
 
 For core mailbox workflows and MCP setup, use the [official Mermail skills](https://github.com/Nudgen-Marketing/mermail-skills). This companion adds a notification evidence workflow and does not replace that package.
 
+[Release v0.1.0](https://github.com/getio0909/backup-evidence-inbox/releases/tag/v0.1.0) includes a separate 250-second live monitor video of the official inbox skill's bounded reads. It does not run this companion's grouping analyzer. The related coverage-reporting improvement is proposed in [official skill PR #185](https://github.com/Nudgen-Marketing/mermail-skills/pull/185).
+
 ## Use an existing export
 
 ```bash
