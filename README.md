@@ -49,3 +49,7 @@ Use synthetic messages for public demonstrations. Real reports retain job/run/me
 Local analysis, bounded read adapter, structured output, and synthetic scenarios are implemented. On 2026-09-05, API-key authentication and reads of synthetic Gmail-to-Mermail notifications were verified. Live observations produced a tentative failure issue and an empty-artifact issue; sender authentication remained unknown. The integration also confirmed that agent-safe content can collapse line breaks into spaces, which the event parser now supports.
 
 A subsequent live read also grouped two repeated synthetic failure notifications into one tentative issue with both source IDs preserved. Other selected records with unscanned or unavailable bodies remained in the review queue. Contest submission remains outstanding. No database restore is performed by this project.
+
+## Optional operational review
+
+[PostgreSQL backup status review, in Chinese](SERVICE.zh-CN.md) describes a separately scoped service and includes a synthetic notification report. The open-source tool remains available under the MIT license.
